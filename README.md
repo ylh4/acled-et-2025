@@ -66,7 +66,7 @@ This pipeline is implemented step-by-step following the implementation manual:
 
 - [x] Step 0: Purpose & Overall Architecture
 - [x] Step 1: Project Bootstrap (Repository & Environment Setup)
-- [ ] Step 2: ACLED API Access (Configuration & Client Development)
+- [x] Step 2: ACLED API Access (Configuration & Client Development)
 - [ ] Step 3: Data Download for Ethiopia (1997-2025)
 - [ ] Step 4: Data Cleaning & Harmonization
 - [ ] Step 5: Descriptive Analysis for 2025
