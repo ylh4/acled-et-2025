@@ -1,0 +1,43 @@
+# Core Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# API & HTTP Requests
+requests>=2.31.0
+
+# Environment Management
+python-dotenv>=1.0.0
+
+# Spatial Analysis
+geopandas>=0.14.0
+shapely>=2.0.0
+fiona>=1.9.0
+pyproj>=3.6.0
+
+# Statistical Modeling
+statsmodels>=0.14.0
+scikit-learn>=1.3.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.17.0
+
+# Jupyter Notebooks
+jupyter>=1.0.0
+ipykernel>=6.25.0
+notebook>=7.0.0
+
+# Optional: Bayesian Modeling
+# Uncomment if you want to use Bayesian extensions
+# pymc>=5.7.0
+# arviz>=0.16.0
+
+# Optional: Basemap Tiles for Spatial Plots
+# Uncomment if you want to use contextily for basemaps
+# contextily>=1.4.0
+
+# Additional Utilities
+openpyxl>=3.1.0  # For Excel file support
+pyarrow>=14.0.0  # For Parquet file support
+

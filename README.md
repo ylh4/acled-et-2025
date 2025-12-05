@@ -65,7 +65,7 @@ acled_et_2025/
 This pipeline is implemented step-by-step following the implementation manual:
 
 - [x] Step 0: Purpose & Overall Architecture
-- [ ] Step 1: Project Bootstrap (Repository & Environment Setup)
+- [x] Step 1: Project Bootstrap (Repository & Environment Setup)
 - [ ] Step 2: ACLED API Access (Configuration & Client Development)
 - [ ] Step 3: Data Download for Ethiopia (1997-2025)
 - [ ] Step 4: Data Cleaning & Harmonization
@@ -79,19 +79,60 @@ This pipeline is implemented step-by-step following the implementation manual:
 
 ## Getting Started
 
-1. **Set up environment** (see Step 1):
+### Prerequisites
+
+- Python 3.9 or higher
+- Git (for version control)
+
+### Virtual Environment Setup
+
+1. **Create a virtual environment**:
    ```bash
+   # Navigate to the project directory
+   cd acled_et_2025
+   
+   # Create virtual environment
    python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+
+2. **Activate the virtual environment**:
+   ```bash
+   # On macOS/Linux:
+   source venv/bin/activate
+   
+   # On Windows:
+   venv\Scripts\activate
+   ```
+
+3. **Install dependencies**:
+   ```bash
+   # Upgrade pip first (recommended)
+   pip install --upgrade pip
+   
+   # Install all required packages
    pip install -r requirements.txt
    ```
 
-2. **Configure ACLED credentials** (see Step 2):
+4. **Verify installation**:
+   ```bash
+   # Check that key packages are installed
+   python -c "import pandas, geopandas, statsmodels; print('Core packages installed successfully!')"
+   ```
+
+5. **Deactivate when done** (optional):
+   ```bash
+   deactivate
+   ```
+
+### Configuration
+
+1. **Configure ACLED credentials** (see Step 2):
    - Create `config/.env` with your ACLED credentials
    - See `config/.env.example` for template
 
-3. **Run the pipeline**:
-   - Follow steps sequentially or use the orchestration script (Step 10)
+### Running the Pipeline
+
+- Follow steps sequentially or use the orchestration script (Step 10)
 
 ## Data Sources
 
