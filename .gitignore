@@ -1,0 +1,72 @@
+# Environment
+venv/
+env/
+ENV/
+.venv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment variables and secrets
+.env
+config/.env
+*.env
+*.key
+*.pem
+
+# Data files (raw and processed - adjust as needed)
+data_raw/*.csv
+data_raw/*.parquet
+data_raw/*.json
+data_clean/*.csv
+data_clean/*.parquet
+# Keep directory structure but ignore contents
+!data_raw/.gitkeep
+!data_clean/.gitkeep
+
+# Model artifacts
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.pth
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Token caches
+*.token
+token_cache/
+
+# Outputs (optional - you may want to track some figures)
+# figures/*.png
+# figures/*.pdf
+# figures/*.svg
+
